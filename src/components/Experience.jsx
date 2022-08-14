@@ -11,13 +11,11 @@ const Experience = () => {
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
             Experience
           </p>
-          <p className="py-6">These are the technologies I've worked with</p>
+          <p className="py-6"></p>
         </div>
-      <div>
-        
-<ol class="border-l border-orange-700 dark:border-gray-700">                  
+        <ol class="border-l border-orange-700 dark:border-gray-700">                  
     <li class="mb-10 ml-6">
-        <div class="shadow-md hover:scale-105 duration-200 py-2  p-4 bg-white rounded-lg border shadow-blue-600 dark:bg-gray-700">
+        <div class="shadow-md py-2 p-4 bg-white rounded-lg border shadow-blue-600 dark:bg-gray-700">
             <div class="justify-between items-center mb-3 sm:flex">
                 <time class="mb-1 text-sm font-normal max-w-md text-black-400 sm:order-last sm:mb-0">2020 - Present</time>
                 <div><a href="https://www.lntinfotech.com/" class="font-semibold text-gray-900 dark:text-white hover:underline">Larsen & Toubro Infotech Limited</a></div>     
@@ -48,6 +46,9 @@ const Experience = () => {
         </div>
     </li>
 </ol>
+      <div>
+        
+
 
       </div>
 
