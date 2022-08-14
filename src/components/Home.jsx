@@ -36,9 +36,9 @@ const Home = () => {
           <img
             src={SwapnaliKadam}
             alt="my profile"
-            height='200px'
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
-            // className="rounded-2xl mx-auto w-96	width: 24rem;"
+            height='400px'
+            // className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className="rounded-2xl mx-auto w-96	width: 24rem;"
           />
         </div>
       </div>
