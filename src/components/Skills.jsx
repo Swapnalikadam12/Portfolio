@@ -85,7 +85,7 @@ const Skills = () => {
   return (
     <div
       name="skills"
-      className="bg-white dark:bg-gradient-to-b from-gray-800 to-black w-full h-screen"
+      className="bg-white dark:bg-gradient-to-b from-gray-800 to-black w-full h-full"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-black dark:text-white">
         <div>
@@ -95,7 +95,7 @@ const Skills = () => {
           <p className="py-6">These are the technologies I've worked with</p>
         </div>
 
-        <div className="w-full grid grid-cols-4 sm:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="w-full grid grid-cols-4 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
