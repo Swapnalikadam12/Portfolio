@@ -31,7 +31,7 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center w-full h-15 px-4 dark:text-white text:black dark:bg-black bg-gray-200 cursor-pointer fixed">
+    <div className="flex justify-between items-center w-full h-13 px-4 dark:text-white text:black dark:bg-black bg-gray-200 cursor-pointer fixed">
       <div>
         <h1 className="text-5xl font-signature ml-2">Swapnali</h1>
       </div>
