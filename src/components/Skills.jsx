@@ -3,13 +3,13 @@ import React from "react";
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript1 from "../assets/javascript1.png";
-import reactImage from "../assets/react.png";
+import reactImage from "../assets/react3.png";
 import git from "../assets/git.png";
 import aws1 from "../assets/lambda.png";
-import mongoDB from "../assets/mongoDB.png";
-import nodeJS from "../assets/nodeJS.png";
+import mongoDB from "../assets/mongo.png";
+import nodeJS from "../assets/node2.png";
 import java from "../assets/java.png";
-import net from "../assets/net.png";
+import net from "../assets/net1.png";
 import sql2 from "../assets/sql2.png";
 
 const Skills = () => {
