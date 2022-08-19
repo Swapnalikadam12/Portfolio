@@ -1,5 +1,4 @@
 import React from "react";
-import SwapnaliKadam from '../assets/SwapnaliKadam1.JPG';
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
@@ -14,8 +13,10 @@ const Home = () => {
           <h2 className="text-4xl sm:text-7xl font-bold text-black dark:text-white pt-7">
             I'm a Full Stack Developer
           </h2>
-          <p className="text-gray-700 dark:text-gray-500 py-5 max-w-md">
-          I have 2+ Years Of Experience in Building And Optimising User Focused Applications Using A Wide Range Of Front-End And Back-End Technologies.
+          <p className="text-gray-700 text-gray-600 dark:text-gray-500 py-5">
+          Logical And Results- Driven Full Stack Developer With 2+ Years Of Hands-On Experience in Building And Optimising User Focused Websites And Applications Using A Wide Range Of Front-End And Back-End Skills Like JavaScript, React.js, HTML, CSS, .Net, etc.
+            Developed 4+ Websites and Maintained 20+ Websites.
+            Awarded The ‘The Pat On The Back Award’ From Larsen & Toubro Infotech For Solving Challenging Problems And Timely Delivery With 0% Defects.
           </p>
 
           <div>
@@ -32,13 +33,6 @@ const Home = () => {
             </Link>
           </div>
         </div>       
-        <div>
-          <img
-            src={SwapnaliKadam}
-            alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
-          />
-        </div>
       </div>
     </div>
   );
