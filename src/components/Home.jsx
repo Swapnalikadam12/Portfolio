@@ -14,9 +14,11 @@ const Home = () => {
             I'm a Full Stack Developer
           </h2>
           <p className="text-gray-700 text-gray-600 dark:text-gray-500 py-5">
-          Logical And Results- Driven Full Stack Developer With 2+ Years Of Hands-On Experience in Building And Optimising User Focused Websites And Applications Using A Wide Range Of Front-End And Back-End Skills Like JavaScript, React.js, HTML, CSS, .Net, etc.
-            Developed 4+ Websites and Maintained 20+ Websites.
-            Awarded The ‘The Pat On The Back Award’ From Larsen & Toubro Infotech For Solving Challenging Problems And Timely Delivery With 0% Defects.
+            <ul className="list-none">
+              <li>Logical And Results- Driven Full Stack Developer With 2+ Years Of Hands-On Experience in Building And Optimising User Focused Websites And Applications Using A Wide Range Of Front-End And Back-End Skills Like JavaScript, React.js, HTML, CSS, .Net, etc.</li>
+              <li>Developed 12+ Websites and Maintained 20+ Websites.</li>
+              <li>Awarded The ‘The Pat On The Back Award’ From Larsen & Toubro Infotech For Solving Challenging Problems And Timely Delivery With 0% Defects.</li>
+            </ul>
           </p>
 
           <div>
@@ -26,13 +28,13 @@ const Home = () => {
               duration={500}
               className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
             >
-             Contact Me
+              Contact Me
               <span className="group-hover:rotate-90 duration-300">
                 <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
               </span>
             </Link>
           </div>
-        </div>       
+        </div>
       </div>
     </div>
   );

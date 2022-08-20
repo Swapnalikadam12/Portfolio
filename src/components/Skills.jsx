@@ -4,7 +4,7 @@ import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript1 from "../assets/javascript1.png";
 import reactImage from "../assets/react3.png";
-import git from "../assets/git.png";
+import git from "../assets/git1.png";
 import aws1 from "../assets/lambda.png";
 import mongoDB from "../assets/mongo.png";
 import nodeJS from "../assets/node2.png";
