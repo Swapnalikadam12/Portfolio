@@ -1,11 +1,9 @@
 import React from "react";
 
 import html from "../assets/html.png";
-import css from "../assets/css.png";
 import javascript1 from "../assets/javascript1.png";
 import reactImage from "../assets/react3.png";
 import git from "../assets/git1.png";
-import aws1 from "../assets/lambda.png";
 import mongoDB from "../assets/mongo.png";
 import nodeJS from "../assets/node2.png";
 import java from "../assets/java.png";
@@ -58,24 +56,12 @@ const Skills = () => {
     },
     {
       id: 8,
-      src: aws1,
-      title: "AWS",
-      style: "shadow-orange-400",
-    },  
-    {
-      id: 9,
       src: html,
-      title: "HTML",
+      title: "HTML/CSS",
       style: "shadow-orange-500",
     },
     {
-      id: 10,
-      src: css,
-      title: "CSS",
-      style: "shadow-blue-500",
-    },  
-    {
-      id: 11,
+      id: 9,
       src: git,
       title: "GitHub",
       style: "shadow-gray-400",
@@ -85,7 +71,7 @@ const Skills = () => {
   return (
     <div
       name="skills"
-      className="bg-white dark:bg-gradient-to-b from-gray-800 to-black w-full h-full"
+      className="bg-white dark:bg-gradient-to-b from-gray-800 to-black w-full h-screen"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-black dark:text-white">
         <div>
