@@ -13,7 +13,7 @@ const Switcher = () => {
 
   return (
     <>
-      <div className='px-4 cursor-pointer capitalize py-6 text-4xl'>
+      <div className='px-4 cursor-pointer capitalize py-6 text-4xl hover:scale-105 duration-200'>
         <div class="relative flex flex-col items-center group">
           <DarkModeSwitch
             checked={darkSide}

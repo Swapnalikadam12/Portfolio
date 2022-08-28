@@ -3,8 +3,6 @@ import Contact from "./components/Contact";
 import Experience from "./components/Experience";
 import Home from "./components/Home";
 import NavBar from "./components/NavBar";
-import SocialLinks from "./components/SocialLinks";
-
 
 function App() {
   return (
@@ -14,7 +12,6 @@ function App() {
       <Skills />
       <Experience />
       <Contact />
-      <SocialLinks />
     </div>
   );
 }
