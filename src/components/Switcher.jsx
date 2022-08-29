@@ -20,9 +20,6 @@ const Switcher = () => {
             onChange={toggleDarkMode}
             size={30}
           />
-          <div class="absolute top-5 flex flex-col items-center hidden mt-6 group-hover:flex">
-            <span class="relative z-100 p-2 w-40 text-center text-xs leading-none text-white whitespace bg-black shadow-lg dark:bg-white dark:text-black">Switch to {colorTheme} Mode</span>
-          </div>
         </div>
       </div>
     </>

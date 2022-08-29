@@ -27,7 +27,7 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center w-full h-13 px-4 dark:text-white text:black dark:bg-black bg-gray-200 cursor-pointer fixed">
+    <div className="flex justify-between items-center w-full h-13 px-4 dark:text-white text:black dark:bg-black bg-gray-200 cursor-pointer fixed solid z-10">
       <div>
         <Switcher />
       </div>
@@ -51,7 +51,7 @@ const NavBar = () => {
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
       {nav && (
-        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500">
+        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500 solid">
           <li>
             <img src={SwapnaliKadam1} className="w-60 h-60 rounded-full border-8 border-blue-400" alt="test" />
           </li>
@@ -73,7 +73,6 @@ const NavBar = () => {
         </ul>
       )}
     </div>
-
   );
 };
 
