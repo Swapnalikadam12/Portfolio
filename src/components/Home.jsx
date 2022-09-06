@@ -41,7 +41,7 @@ const Home = () => {
             </ul>
           </p>
           <div>
-            <a href={require("../assets/Swapnali_CV.pdf")} download="Swapnali_CV">
+            <a href={require("../assets/SwapnaliKadam_SDE.pdf")} download="SwapnaliKadam_SDE">
               <button type="button" className="group animate-bounce text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">Download CV</button>
             </a>
           </div>
